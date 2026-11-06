@@ -13,15 +13,7 @@ export function DocumentLayout({ title, accent, subtitle, notice, children }) {
       <h1>{title} <em>{accent}</em></h1>
       <p className="lead">{subtitle}</p>
 
-      <Notice title={legalNotice.title}>
-        {notice || legalNotice.description}
-      </Notice>
-
       {children}
-
-      <p className="document-version">
-        Versão inicial: {site.revisionDate} · Revisar antes de publicar.
-      </p>
     </article>
   );
 }

@@ -31,10 +31,6 @@ export function HomePage() {
           description="Dados tratados, finalidades, segurança e direitos dos usuários."
         />
       </div>
-
-      <Notice title="Sobre os documentos">
-        {legalNotice.description}
-      </Notice>
     </div>
   );
 }

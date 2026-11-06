@@ -7,7 +7,6 @@ export function PrivacyPage() {
       title="Política de"
       accent="Privacidade"
       subtitle="Como o Bombeirinho SSFD utiliza informações necessárias às suas funcionalidades."
-      notice="Antes da publicação, confirme prazos de retenção, procedimentos de exclusão, permissões de acesso, localização do armazenamento e papéis dos responsáveis pelo tratamento de dados."
     >
       <LegalSection title="1. Responsável e contato">
         <p>

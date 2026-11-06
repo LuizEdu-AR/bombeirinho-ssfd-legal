@@ -7,7 +7,6 @@ export function TermsPage() {
       title="Termos de"
       accent="Uso"
       subtitle="Condições de utilização do bot Bombeirinho SSFD no Discord."
-      notice="Confirme as práticas operacionais e administrativas antes de publicar este documento como versão definitiva."
     >
       <LegalSection title="1. Identificação">
         <p>
