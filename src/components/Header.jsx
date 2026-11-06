@@ -10,7 +10,7 @@ export function Header() {
     <header className="site-header">
       <div className="container navigation">
         <NavLink className="brand" to="/" aria-label="Bombeirinho SSFD — início">
-          <span aria-hidden="true">🚒</span>
+          <img className="brand-logo" src="/ssfd-logo.png" alt="Logotipo do South State Fire Department" />
           <strong>BOMBEIRINHO</strong>
           <span className="brand-tag">SSFD</span>
         </NavLink>

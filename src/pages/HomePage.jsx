@@ -20,13 +20,13 @@ export function HomePage() {
       <div className="document-grid">
         <DocumentCard
           to="/termos-de-uso/"
-          icon="📄"
+          symbol="terms"
           title="Termos de Uso"
           description="Regras, responsabilidades e condições de utilização."
         />
         <DocumentCard
           to="/politica-de-privacidade/"
-          icon="🛡️"
+          symbol="privacy"
           title="Política de Privacidade"
           description="Dados tratados, finalidades, segurança e direitos dos usuários."
         />
