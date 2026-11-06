@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import { site } from '../data/site.js';
 
 export function Footer() {
   return (

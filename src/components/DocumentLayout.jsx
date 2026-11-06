@@ -1,6 +1,5 @@
 import { useEffect } from 'react';
 import { Notice } from './Notice.jsx';
-import { legalNotice, site } from '../data/site.js';
 
 export function DocumentLayout({ title, accent, subtitle, notice, children }) {
   useEffect(() => {
