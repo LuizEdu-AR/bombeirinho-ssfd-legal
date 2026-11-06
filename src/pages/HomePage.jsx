@@ -4,7 +4,7 @@ import { Notice } from '../components/Notice.jsx';
 
 export function HomePage() {
   useEffect(() => {
-    document.title = `${site.name} — Documentos legais`;
+    document.title = 'Bombeirinho SSFD — Documentos legais';
   }, []);
 
   return (
