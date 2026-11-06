@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 import { DocumentCard } from '../components/DocumentCard.jsx';
 import { Notice } from '../components/Notice.jsx';
-import { legalNotice, site } from '../data/site.js';
 
 export function HomePage() {
   useEffect(() => {
